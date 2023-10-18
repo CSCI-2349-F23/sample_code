@@ -6,7 +6,7 @@ You have two choices:
 
 1. You can install Juypyter and NLTK on your own computer and run the Jupyter notebook found in this repo as you follow along with the video. See below for more information about getting started with Jupyter. **This is optional!**
 
-2. You can install NLTK on cslab, and run the code in Class_8.2.py as we normally run programs on cslab. You can't run Jupyter notebook on an external server without ssh tunneling, which is complicated.
+2. You can install NLTK on cslab, and run the code in Class_8.2.py (or copy and paste in the code from here!) as we normally run programs on cslab. You can't run Jupyter notebook on an external server without ssh tunneling, which is complicated.
 
 # This is not a Jupyter notebook, even though it looks like one! This just will make it easier for people who are writing Python into a proper Python program to get the code they need to run
 
