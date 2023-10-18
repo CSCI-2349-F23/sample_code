@@ -306,16 +306,3 @@ print(fdist2.most_common(25))
 It probably doesn't look much better. This is because the WordNet lemmatizer in nltk assumes by default that every word is a noun. Unless you tell the lemmatizer that something is a verb, it won't try to look it up as a verb. This is why "said" doesn't get lemmatized, and also why "was" gets lemmatized to "wa". We will learn about how to find out a word's part of speech next week, which will make the stemmer work better.
 
 Note that there are several different stemmers implemented in the nltk.stem package. You can explore these in the nltk.stem package.
-
-Make sure you've answered every <b>Q</b> question.
-
-Make sure you've written code wherever required. 
-
-Go up to the Kernel menu and select Restart and Run All. **(Don't forget that you can comment out or skip the nltk download block and the urllib block.)** This will run all of the code you've written. Make sure there are no errors.
-
-Add, commit, and push this file and the <code>great.txt</code> file to your repo. When you are totally done, make the comment say "FINAL SUBMISSION - PLEASE GRADE".
-
-
-```python
-
-```
