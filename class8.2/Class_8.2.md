@@ -1,28 +1,16 @@
 # Class 8.2: NLTK for tokenizing, normalizing, and lemmatizing text
 
-Today we will be learning a bit about how to use the Python library <code>nltk</code> to do tokenization, normalization, lemmatization, and stop word management.
+Today we will be learning a bit about how to use the Python library <code>nltk</code> to do tokenization, normalization, lemmatization, and stop word management. In the video I demonstrate the code using a Jupyter notebook. 
+
+You have two choices:
+
+1. You can install Juypyter and NLTK on your own computer and run the Jupyter notebook found in this repo as you follow along with the video. See below for more information about getting started with Jupyter. **This is optional!**
+
+2. You can install NLTK on cslab, and run the code in Class_8.2.py as we normally run programs on cslab. You can't run Jupyter notebook on an external server without ssh tunneling, which is complicated.
 
 ### **A note on Jupyter notebooks**
-I'm demonstrating using a Jupyter notebook, but I'll be also sharing the code as a regular Python program you can edit and run on `cslab`. If you like, you can install the necessary libraries (Jupyter, nltk, the nltk data described below) on your own computer and use this Jupyter notebook. Jupyter notebooks are really helpful for developing your code, and I highly recommend learning to use them! (It is possible to run a Jupyter notebook on a remote server using an ssh tunnel, but it's easier to just install nltk on your own computer.)
 
-There are many tutorials and quick-start guides on the web for using Jupyter notebooks (<a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/">here</a>, <a href="https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook">here</a>, <a href="http://bi1.caltech.edu/code/t0b_jupyter_notebooks.html">here</a>). Note that if you ever get weird behavior in a notebook. just go up to the Kernel menu and restart the kernel and clear the output, then run each code cell up to where you started having the problem.
-
-Quick start: In the cell below, where it says <code> In [ ]: </code>, type <code>print("Hello, World!")</code>. Click in the cell below, and then hit the Run button from the menu of icons at the top of the page. Depending on your installation of jupyter, the run button might have the text Run or it might just be an icon that looks like a black triangle pointing to the right. The keyboard shortcut is <code>shift-return</code>, holding both keys down at the same time.
-
-
-
-```python
-print("Hello world!")
-```
-
-    Hello world!
-
-
-Underneath your command you should now see the output <code>Hello, World!</code>. 
-
-Great! Now you have run your first command in this Jupyter Notebook. You can always go back and edit the stuff you've written in any code cell. Just remember to re-run it if you change anything. 
-
-*Note: Many jupyter beginners forget that if you change the value of some variable in a block of code, that variable now has that new value everywhere -- even in earlier blocks of code. If you are having trouble, it often helps to go back and re-run the block of code where you originally set the value of that variable.* 
+In the video, I'm demonstrating using a Jupyter notebook, but I'll be also sharing the code as a regular Python program you can edit and run on `cslab`.Jupyter notebooks are really helpful for developing your code, and I highly recommend learning to use them! There are many tutorials and quick-start guides on the web for using Jupyter notebooks (<a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/">here</a>, <a href="https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook">here</a>, <a href="http://bi1.caltech.edu/code/t0b_jupyter_notebooks.html">here</a>).
 
 
 ## 1. Installing and configuring NLTK
