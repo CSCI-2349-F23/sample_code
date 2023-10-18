@@ -8,6 +8,9 @@ You have two choices:
 
 2. You can install NLTK on cslab, and run the code in Class_8.2.py as we normally run programs on cslab. You can't run Jupyter notebook on an external server without ssh tunneling, which is complicated.
 
+# This is not a Jupyter notebook, even though it looks like one! This just will make it easier for people who are writing Python into a proper Python program to get the code they need to run
+
+
 ### **A note on Jupyter notebooks**
 
 In the video, I'm demonstrating using a Jupyter notebook, but I'll be also sharing the code as a regular Python program you can edit and run on `cslab`.Jupyter notebooks are really helpful for developing your code, and I highly recommend learning to use them! There are many tutorials and quick-start guides on the web for using Jupyter notebooks (<a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/">here</a>, <a href="https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook">here</a>, <a href="http://bi1.caltech.edu/code/t0b_jupyter_notebooks.html">here</a>).
